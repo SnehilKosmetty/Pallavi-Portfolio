@@ -9,10 +9,10 @@ const ContactSection = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const socials = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/Pallavi-Nile-98", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/pallavi-nile/", label: "LinkedIn" },
     { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-    { icon: Mail, href: "mailto:john@example.com", label: "Email" },
+    { icon: Mail, href: "mailto:nilepallavi98@gmail.com", label: "Email" },
   ];
 
   return (
@@ -53,7 +53,7 @@ const ContactSection = () => {
             </div>
 
             <Button variant="glow" size="xl" asChild className="mb-8">
-              <a href="mailto:john@example.com">
+              <a href="mailto:nilepallavi98@gmail.com">
                 <Mail className="mr-2" size={20} />
                 Say Hello
               </a>

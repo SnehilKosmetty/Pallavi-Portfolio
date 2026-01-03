@@ -29,9 +29,9 @@ const HeroSection = () => {
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.1 }}
-                            className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6"
+                            className="text-5xl md:text-7xl lg:text-7xl font-bold mb-6"
                         >
-                            <span className="gradient-text">John Doe</span>
+                            <span className="gradient-text">Pallavi Sanjay Nile</span>
                         </motion.h1>
 
                         <motion.h2
@@ -73,7 +73,7 @@ const HeroSection = () => {
                             transition={{ duration: 0.6, delay: 0.5 }}
                             className="flex items-center justify-center md:justify-start gap-6"
                         >
-                            {[{ icon: Github, href: "https://github.com", label: "GitHub" }, { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" }, { icon: Mail, href: "mailto:john@example.com", label: "Email" }].map((social) => (
+                            {[{ icon: Github, href: "https://github.com/Pallavi-Nile-98", label: "GitHub" }, { icon: Linkedin, href: "https://www.linkedin.com/in/pallavi-nile/", label: "LinkedIn" }, { icon: Mail, href: "mailto:nilepallavi98@gmail.com", label: "Email" }].map((social) => (
                                 <a
                                     key={social.label}
                                     href={social.href}
@@ -96,9 +96,9 @@ const HeroSection = () => {
                         className="w-full md:w-1/3 flex items-center justify-center md:justify-end"
                     >
                         {/* Use /profile.jpg from public/ or replace src with imported asset if you prefer */}
-                        <div className="rounded-full overflow-hidden w-48 h-48 md:w-64 md:h-64 border-4 border-primary shadow-lg">
+                        <div className="rounded-full overflow-hidden w-50 h-50 md:w-64 md:h-64 border-4 border-primary shadow-lg">
                             <img
-                                src="/assets/profile.jpg"
+                                src="/assets/Pallavi_Image.jpeg"
                                 alt="Profile photo"
                                 className="w-full h-full object-cover"
                                 loading="eager"

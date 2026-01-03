@@ -13,7 +13,7 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>John Doe | Software Developer Portfolio</title>
+        <title>Pallavi Sanjay Nile | Software Developer Portfolio</title>
         <meta
           name="description"
           content="Software Developer specializing in full-stack development. Master's student with 3 internships and 10+ projects. Building scalable applications with React, Node.js, and cloud technologies."
@@ -22,17 +22,17 @@ const Index = () => {
           name="keywords"
           content="software developer, full stack developer, React developer, Node.js, portfolio, computer science, internship"
         />
-        <link rel="canonical" href="https://johndoe.dev" />
+              <link rel="canonical" href="https://PallaviSanjayNile.dev" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
-            name: "John Doe",
+            name: "Pallavi Sanjay Nile",
             jobTitle: "Software Developer",
-            url: "https://johndoe.dev",
+              url: "https://github.com/Pallavi-Nile-98",
             sameAs: [
-              "https://github.com/johndoe",
-              "https://linkedin.com/in/johndoe",
+              "https://github.com/Pallavi-Nile-98",
+              "https://www.linkedin.com/in/pallavi-nile/",
             ],
           })}
         </script>

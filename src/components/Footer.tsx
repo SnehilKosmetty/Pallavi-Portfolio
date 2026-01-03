@@ -12,10 +12,10 @@ const Footer = () => {
           className="flex flex-col md:flex-row items-center justify-between gap-4"
         >
           <p className="text-muted-foreground text-sm">
-            © 2024 John Doe. All rights reserved.
+            © 2026 Pallavi Sanjay Nile, All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm flex items-center gap-2">
-            Built with <Heart size={14} className="text-primary" /> using React & Tailwind
+            Built with using React & Tailwind.
           </p>
         </motion.div>
       </div>
